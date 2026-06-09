@@ -1078,6 +1078,50 @@ strong { font-weight: 500; color: var(--white); }
   letter-spacing: 0.04em;
 }
 
+/* ---------- Flow step note ---------- */
+.flow__step-note {
+  margin-top: 16px;
+  padding: 16px 20px;
+  background: var(--dark-gray);
+  border: 1px solid var(--mid-gray);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+}
+
+.flow__step-note-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.flow__step-note-list {
+  list-style: none;
+}
+
+.flow__step-note-list li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 6px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--off-white);
+}
+
+.flow__step-note-list li::before {
+  content: '\2013';
+  position: absolute;
+  left: 0;
+  color: var(--light-gray);
+}
+
+.flow__step-note-caution {
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--light-gray);
+  line-height: 1.6;
+}
+
 /* ---------- PRICING ---------- */
 .pricing__grid {
   display: grid;
