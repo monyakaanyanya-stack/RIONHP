@@ -1141,6 +1141,33 @@ strong { font-weight: 500; color: var(--white); }
   letter-spacing: 0.04em;
 }
 
+/* ---------- APPROACH ---------- */
+.approach__content {
+  max-width: 720px;
+  margin: 56px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.approach__block {
+  padding-left: 24px;
+  border-left: 3px solid var(--accent);
+}
+
+.approach__heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.approach__text {
+  font-size: 15px;
+  line-height: 2.1;
+  color: var(--off-white);
+}
+
 /* ---------- Flow step note ---------- */
 .flow__step-note {
   margin-top: 16px;
