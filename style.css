@@ -1141,6 +1141,18 @@ strong { font-weight: 500; color: var(--white); }
   letter-spacing: 0.04em;
 }
 
+/* ---------- Closing email ---------- */
+.closing__email {
+  margin-top: 20px;
+  font-size: 13px;
+  color: var(--light-gray);
+}
+
+.closing__email span {
+  color: var(--accent-light);
+  user-select: all;
+}
+
 /* ---------- APPROACH ---------- */
 .approach__content {
   max-width: 720px;
