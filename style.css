@@ -452,6 +452,69 @@ strong { font-weight: 500; color: var(--white); }
   background: var(--accent-glow);
 }
 
+/* About flow diagram */
+.about__flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.about__flow-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 20px;
+  background: var(--dark-gray);
+  border: 1px solid var(--mid-gray);
+  border-radius: 12px;
+  min-width: 120px;
+  transition: border-color 0.3s ease;
+}
+
+.about__flow-step:hover {
+  border-color: var(--accent);
+}
+
+.about__flow-number {
+  font-family: var(--font-en);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--accent);
+  opacity: 0.7;
+}
+
+.about__flow-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--white);
+  letter-spacing: 0.04em;
+}
+
+.about__flow-arrow {
+  display: block;
+  width: 32px;
+  height: 2px;
+  background: var(--accent);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.about__flow-arrow::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -4px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid var(--accent);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
 /* ---------- PROFILE ---------- */
 .profile__layout {
   display: grid;
@@ -1125,9 +1188,12 @@ strong { font-weight: 500; color: var(--white); }
 /* ---------- PRICING ---------- */
 .pricing__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   margin-top: 56px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pricing-card {
@@ -1318,6 +1384,31 @@ strong { font-weight: 500; color: var(--white); }
   /* Target */
   .target__layout {
     grid-template-columns: 1fr;
+  }
+
+  /* About flow */
+  .about__flow {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .about__flow-step {
+    min-width: 160px;
+  }
+
+  .about__flow-arrow {
+    width: 2px;
+    height: 24px;
+  }
+
+  .about__flow-arrow::after {
+    right: -4px;
+    top: auto;
+    bottom: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid var(--accent);
+    border-bottom: none;
   }
 
   /* Pricing */
