@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "riohp",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "3000", "C:\\Users\\rion_antsa\\RIOHP"],
+      "port": 3000
+    }
+  ]
+}

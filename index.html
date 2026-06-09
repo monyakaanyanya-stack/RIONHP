@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>りおん パフォーマンス分析コーチング</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo">
+        <span class="header__logo-name">RION</span>
+        <span class="header__logo-sub">Performance Analysis</span>
+      </a>
+      <nav class="header__nav" id="nav">
+        <a href="#about-service" class="header__nav-link">Service</a>
+        <a href="#profile" class="header__nav-link">Profile</a>
+        <a href="#coaching" class="header__nav-link">Coaching</a>
+        <a href="#faq" class="header__nav-link">FAQ</a>
+        <a href="#contact" class="header__nav-cta">無料相談</a>
+      </nav>
+      <button class="header__burger" id="burger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-gradient"></div>
+    <div class="hero__content">
+      <p class="hero__catch fade-up">あなたらしい魅力を、<br>もっと伝えられるように。</p>
+      <div class="hero__divider fade-up"></div>
+      <p class="hero__desc fade-up">
+        振付を教える場ではありません。<br>
+        今ある振付やパフォーマンスを、<br>
+        あなたらしい魅力で磨き上げるためのコーチングです。
+      </p>
+      <p class="hero__sub fade-up">
+        事前に動画を分析し、<br>
+        あなたの強みや改善ポイントを整理した上で、<br>
+        より魅力的に伝わる表現を一緒に作っていきます。
+      </p>
+      <a href="mailto:rion.monya0224@gmail.com?subject=%E3%80%90%E7%84%A1%E6%96%99%E7%9B%B8%E8%AB%87%E3%80%91%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0&body=%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%A6%E3%80%82%0A%E7%84%A1%E6%96%99%E7%9B%B8%E8%AB%87%E3%82%92%E5%B8%8C%E6%9C%9B%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%0A%0A%E2%96%A0%20%E3%81%8A%E5%90%8D%E5%89%8D%0A%0A%0A%E2%96%A0%20%E6%B4%BB%E5%8B%95%E5%86%85%E5%AE%B9%EF%BC%88%E8%B8%8A%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%83%BB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%BBVTuber%E3%81%AA%E3%81%A9%EF%BC%89%0A%0A%0A%E2%96%A0%20%E4%BB%8A%E6%82%A9%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%E3%83%BB%E6%94%B9%E5%96%84%E3%81%97%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%0A%0A%0A%E3%81%8A%E6%B0%97%E8%BB%BD%E3%81%AB%E3%81%94%E9%80%A3%E7%B5%A1%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82" class="btn btn--primary fade-up">まずは無料で相談する</a>
+    </div>
+    <div class="hero__scroll-indicator">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== WORRIES ========== -->
+  <section class="section section--dark" id="worries">
+    <div class="container">
+      <h2 class="section__title fade-up">このようなお悩みは<br class="sp-only">ありませんか？</h2>
+      <div class="worries__grid fade-up">
+        <div class="worry-card">
+          <span class="worry-card__icon">01</span>
+          <p>振付は覚えたけど<br>魅せ方が分からない</p>
+        </div>
+        <div class="worry-card">
+          <span class="worry-card__icon">02</span>
+          <p>踊れているはずなのに<br>何か物足りない</p>
+        </div>
+        <div class="worry-card">
+          <span class="worry-card__icon">03</span>
+          <p>自分の個性や<br>強みが分からない</p>
+        </div>
+        <div class="worry-card">
+          <span class="worry-card__icon">04</span>
+          <p>魅せ方や立ち振る舞いが<br>分からない</p>
+        </div>
+        <div class="worry-card">
+          <span class="worry-card__icon">05</span>
+          <p>本番やライブで<br>自信を持てない</p>
+        </div>
+        <div class="worry-card">
+          <span class="worry-card__icon">06</span>
+          <p>動画を撮っても<br>納得がいかない</p>
+        </div>
+        <div class="worry-card">
+          <span class="worry-card__icon">07</span>
+          <p>もっと自分らしく<br>表現したい</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SERVICE ========== -->
+  <section class="section section--about" id="about-service">
+    <div class="container">
+      <div class="about__layout">
+        <div class="about__label fade-up">
+          <span class="section__label">About</span>
+          <h2 class="section__title section__title--left">このサービスについて</h2>
+        </div>
+        <div class="about__content fade-up">
+          <h3 class="about__headline">このサービスは<br>動画分析から始まります</h3>
+          <p class="about__text">
+            表現の課題は、人によって異なります。
+          </p>
+          <div class="about__elements">
+            <span class="about__element">視線</span>
+            <span class="about__element">雰囲気</span>
+            <span class="about__element">キャラクター性</span>
+            <span class="about__element">動き方</span>
+            <span class="about__element">立ち振る舞い</span>
+          </div>
+          <p class="about__text">
+            何が課題なのかは、<br>
+            <strong>実際に見てみないと分かりません。</strong>
+          </p>
+          <p class="about__text">
+            そのため、事前に動画をお送りいただき、<br>
+            現在のパフォーマンスを分析した上でコーチングを行います。
+          </p>
+          <p class="about__text">
+            基礎練をして振付を覚えて終わり――<br>
+            そういったダンスレッスンとは異なります。<br>
+            <strong>あなたの強みと課題を発見し、<br>
+            その結果をもとに改善するサービス</strong>です。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROFILE ========== -->
+  <section class="section section--dark" id="profile">
+    <div class="container">
+      <span class="section__label fade-up">Profile</span>
+      <h2 class="section__title fade-up">りおんについて</h2>
+      <div class="profile__layout profile__layout--no-image">
+        <div class="profile__content fade-up">
+          <p class="profile__text">
+            踊り手として9年間活動。
+          </p>
+          <p class="profile__text">
+            様々なステージやイベントに出演しながら、<br>
+            「どうすれば人に伝わるのか」<br>
+            「どうすれば魅力的に見えるのか」<br>
+            を考え続けてきました。
+          </p>
+          <p class="profile__text">
+            SNSを通じてダンスや表現を発信する中で、<br>
+            個人や企業の方々からレッスンのご相談をいただくようになり、<br>
+            その経験を活かす形で<br>
+            <strong>パフォーマンスコーチング</strong>を新たに開設しました。
+          </p>
+          <a href="https://www.tiktok.com/@rion_neko_0224" target="_blank" rel="noopener noreferrer" class="profile__tiktok">
+            <svg class="profile__tiktok-icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.71a8.21 8.21 0 0 0 4.76 1.52V6.69h-1z"/>
+            </svg>
+            <span>ダンス動画を見る</span>
+            <svg class="profile__tiktok-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16">
+              <path d="M7 17L17 7M17 7H7M17 7v10"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BEFORE & AFTER ========== -->
+  <section class="section" id="before-after">
+    <div class="container">
+      <span class="section__label fade-up">Before &amp; After</span>
+      <h2 class="section__title fade-up">9年間の変化</h2>
+      <p class="ba__intro fade-up">同じ「踊る」という行為でも、表現の意識ひとつで伝わり方は大きく変わります。</p>
+      <div class="ba__shelf fade-up">
+        <div class="ba__row">
+          <span class="ba__row-label ba__row-label--before">Before</span>
+          <div class="ba__row-videos">
+            <div class="ba__video">
+              <iframe
+                src="https://www.youtube.com/embed/uWvtXMfo93Y"
+                title="Before - ダンス動画 1"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="ba__video">
+              <iframe
+                src="https://www.youtube.com/embed/qfEvuQWg2ys"
+                title="Before - ダンス動画 2"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="ba__row-divider"></div>
+        <div class="ba__row">
+          <span class="ba__row-label ba__row-label--after">After</span>
+          <div class="ba__row-videos">
+            <div class="ba__video">
+              <iframe
+                src="https://www.youtube.com/embed/zlGnGsRm7iU"
+                title="After - ダンス動画 1"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="ba__video">
+              <iframe
+                src="https://www.youtube.com/embed/5T367f1sC5c"
+                title="After - ダンス動画 2"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FLOW ========== -->
+  <section class="section" id="coaching">
+    <div class="container">
+      <span class="section__label fade-up">Flow</span>
+      <h2 class="section__title fade-up">サービスの流れ</h2>
+      <div class="flow__steps">
+        <div class="flow__step fade-up">
+          <div class="flow__step-number">01</div>
+          <div class="flow__step-content">
+            <h3 class="flow__step-title">無料相談</h3>
+            <p class="flow__step-desc">お悩みや改善したいことをお聞かせください。<br>こちらの意見をお伝えした上で、今後の進め方を一緒に考えます。</p>
+          </div>
+        </div>
+        <div class="flow__connector fade-up"></div>
+        <div class="flow__step fade-up">
+          <div class="flow__step-number">02</div>
+          <div class="flow__step-content">
+            <h3 class="flow__step-title">動画提出・分析</h3>
+            <p class="flow__step-desc">コーチングに進む場合、動画をご提出いただきます。<br><strong>強み・改善点・課題</strong>を整理し、方針を立てます。</p>
+          </div>
+        </div>
+        <div class="flow__connector fade-up"></div>
+        <div class="flow__step fade-up">
+          <div class="flow__step-number">03</div>
+          <div class="flow__step-content">
+            <h3 class="flow__step-title">コーチング</h3>
+            <p class="flow__step-desc">分析をもとに、対面で改善をサポートします。<br>同じ振付でも伝わり方が変わる表現を一緒に作っていきます。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="coaching__divider fade-up"></div>
+
+      <span class="section__label fade-up">Coaching</span>
+      <h2 class="section__title fade-up">サポート内容</h2>
+      <div class="coaching__grid">
+        <div class="coaching-card fade-up">
+          <div class="coaching-card__number">01</div>
+          <h3 class="coaching-card__title">個性分析</h3>
+          <ul class="coaching-card__list">
+            <li>強みの発見</li>
+            <li>魅力の整理</li>
+            <li>キャラクター性の言語化</li>
+          </ul>
+        </div>
+        <div class="coaching-card fade-up">
+          <div class="coaching-card__number">02</div>
+          <h3 class="coaching-card__title">表現力向上</h3>
+          <ul class="coaching-card__list">
+            <li>視線・目線の使い方</li>
+            <li>動き方・立ち振る舞い</li>
+            <li>雰囲気・世界観の作り方</li>
+          </ul>
+        </div>
+        <div class="coaching-card fade-up">
+          <div class="coaching-card__number">03</div>
+          <h3 class="coaching-card__title">パフォーマンス改善</h3>
+          <ul class="coaching-card__list">
+            <li>振付の魅せ方の調整</li>
+            <li>動画・ステージの添削</li>
+            <li>ライブ・本番の相談</li>
+          </ul>
+        </div>
+        <div class="coaching-card fade-up">
+          <div class="coaching-card__number">04</div>
+          <h3 class="coaching-card__title">マインドサポート</h3>
+          <ul class="coaching-card__list">
+            <li>自信を持つための考え方</li>
+            <li>人前で表現するための準備</li>
+            <li>継続的な成長サポート</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VALUES ========== -->
+  <section class="section section--dark" id="values">
+    <div class="container">
+      <span class="section__label fade-up">Values</span>
+      <h2 class="section__title fade-up">大切にしていること</h2>
+      <div class="values__grid">
+        <div class="value-card fade-up">
+          <h3 class="value-card__title">技術より個性</h3>
+          <p class="value-card__text">
+            全員が同じようになる必要はありません。<br>
+            あなたにしかない魅力があります。
+          </p>
+        </div>
+        <div class="value-card fade-up">
+          <h3 class="value-card__title">正解を押し付けない</h3>
+          <p class="value-card__text">
+            人によって魅力は違います。<br>
+            かわいいが武器の人もいれば、かっこよさが武器の人もいます。<br>
+            その人に合った表現を一緒に探します。
+          </p>
+        </div>
+        <div class="value-card fade-up">
+          <h3 class="value-card__title">人に伝わることを重視する</h3>
+          <p class="value-card__text">
+            上手いだけでは伝わらないことがあります。<br>
+            相手にどう見えるか。どう感じてもらえるか。<br>
+            そこを大切にしています。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TARGET ========== -->
+  <section class="section" id="target">
+    <div class="container">
+      <span class="section__label fade-up">Target</span>
+      <h2 class="section__title fade-up">こんな方におすすめ</h2>
+      <div class="target__layout">
+        <div class="target__group target__group--yes fade-up">
+          <div class="target__badge target__badge--yes">&#9675;</div>
+          <ul class="target__list">
+            <li>振付はあるけど魅せ方に悩んでいる方</li>
+            <li>VTuber・アイドル・配信者</li>
+            <li>ステージやライブに出演する方</li>
+            <li>踊ってみた動画を投稿している方</li>
+            <li>表現活動をしている方</li>
+            <li>事務所・団体としてのご相談も歓迎です</li>
+          </ul>
+        </div>
+        <div class="target__group target__group--no fade-up">
+          <div class="target__badge target__badge--no">&times;</div>
+          <ul class="target__list">
+            <li>基礎練や振付を一から教わりたい方</li>
+            <li>ダンス技術のみを学びたい方</li>
+            <li>大会入賞を目的としている方</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="section section--dark" id="pricing">
+    <div class="container">
+      <span class="section__label fade-up">Pricing</span>
+      <h2 class="section__title fade-up">料金プラン</h2>
+
+      <div class="pricing__grid">
+
+        <!-- 無料相談 -->
+        <div class="pricing-card pricing-card--free fade-up">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__title">無料相談</h3>
+            <p class="pricing-card__price">無料</p>
+          </div>
+          <ul class="pricing-card__list">
+            <li>現在のお悩みや課題のヒアリング</li>
+            <li>改善したいことの整理</li>
+            <li>こちらからの意見・アドバイス</li>
+            <li>コーチングの進め方のご説明</li>
+          </ul>
+        </div>
+
+        <!-- 単発コーチング -->
+        <div class="pricing-card fade-up">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__title">単発パフォーマンスコーチング</h3>
+            <p class="pricing-card__price">¥15,000〜20,000</p>
+          </div>
+          <ul class="pricing-card__list">
+            <li>事前動画分析</li>
+            <li>対面60分</li>
+            <li>改善ポイント解説</li>
+            <li>質疑応答</li>
+          </ul>
+          <div class="pricing-card__for">
+            <p class="pricing-card__for-title">こんな方へ</p>
+            <ul class="pricing-card__for-list">
+              <li>一度客観的な意見が欲しい</li>
+              <li>本番前に見てもらいたい</li>
+              <li>今の課題を知りたい</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 継続サポート -->
+        <div class="pricing-card fade-up">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__title">継続サポート（月額）</h3>
+            <p class="pricing-card__price">¥30,000〜50,000<span class="pricing-card__price-unit">/月</span></p>
+          </div>
+          <ul class="pricing-card__list">
+            <li>月2回コーチング</li>
+            <li>動画添削</li>
+            <li>チャット相談</li>
+            <li>本番前相談</li>
+          </ul>
+          <div class="pricing-card__for">
+            <p class="pricing-card__for-title">こんな方へ</p>
+            <ul class="pricing-card__for-list">
+              <li>長期的に改善したい</li>
+              <li>活動を続けている</li>
+              <li>ライブや撮影が定期的にある</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 法人・グループ -->
+        <div class="pricing-card pricing-card--biz fade-up">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__title">法人・グループ向け</h3>
+            <p class="pricing-card__price">要相談</p>
+          </div>
+          <ul class="pricing-card__list">
+            <li>複数名対応</li>
+            <li>グループ分析</li>
+            <li>表現力向上サポート</li>
+            <li>イベント前サポート</li>
+          </ul>
+          <div class="pricing-card__for">
+            <p class="pricing-card__for-title">対象</p>
+            <ul class="pricing-card__for-list">
+              <li>VTuber事務所</li>
+              <li>アイドルグループ</li>
+              <li>芸能事務所</li>
+              <li>配信者チーム</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="section section--dark" id="faq">
+    <div class="container">
+      <span class="section__label fade-up">FAQ</span>
+      <h2 class="section__title fade-up">よくある質問</h2>
+      <div class="faq__list">
+        <div class="faq-item fade-up">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>なぜ動画提出が必要なのですか？</span>
+            <span class="faq-item__icon"></span>
+          </button>
+          <div class="faq-item__answer">
+            <p>表現の課題は人によって大きく異なります。実際のパフォーマンスを確認することで、より具体的で効果的なアドバイスが可能になります。</p>
+          </div>
+        </div>
+        <div class="faq-item fade-up">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>事前に動画を送る必要がありますか？</span>
+            <span class="faq-item__icon"></span>
+          </button>
+          <div class="faq-item__answer">
+            <p>現役で活動されている方や振付がある方には、事前に動画をお送りいただいています。それをもとに分析を行い、当日の改善をより的確に進めるためです。</p>
+          </div>
+        </div>
+        <div class="faq-item fade-up">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>振付がなくても受けられますか？</span>
+            <span class="faq-item__icon"></span>
+          </button>
+          <div class="faq-item__answer">
+            <p>はい、大丈夫です。表現の基礎や魅せ方、個性の見つけ方など、振付がない段階からでもサポートできます。まずはお気軽にご相談ください。</p>
+          </div>
+        </div>
+        <div class="faq-item fade-up">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>オンライン対応していますか？</span>
+            <span class="faq-item__icon"></span>
+          </button>
+          <div class="faq-item__answer">
+            <p>申し訳ありませんが、現在オンラインには対応しておりません。対面でのコーチングのみとなります。</p>
+          </div>
+        </div>
+        <div class="faq-item fade-up">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>単発でも受講できますか？</span>
+            <span class="faq-item__icon"></span>
+          </button>
+          <div class="faq-item__answer">
+            <p>可能です。まずはお気軽にご相談ください。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CLOSING ========== -->
+  <section class="section section--closing" id="contact">
+    <div class="container">
+      <div class="closing__content fade-up">
+        <p class="closing__lead">
+          ダンスが上手い人が魅力的とは限らない。
+        </p>
+        <p class="closing__text">
+          人を惹きつけるのは、<br>
+          その人にしかない個性や魅力です。
+        </p>
+        <p class="closing__highlight">
+          あなたらしい表現を、一緒に見つけていきましょう。
+        </p>
+
+        <div class="consultation">
+          <p class="consultation__heading">無料相談でできること</p>
+          <div class="consultation__steps">
+            <div class="consultation__step">
+              <span class="consultation__number">01</span>
+              <div>
+                <p class="consultation__step-title">お悩みのヒアリング</p>
+                <p class="consultation__step-desc">今悩んでいることや改善したいことをお聞かせください。</p>
+              </div>
+            </div>
+            <div class="consultation__step">
+              <span class="consultation__number">02</span>
+              <div>
+                <p class="consultation__step-title">意見・アドバイス</p>
+                <p class="consultation__step-desc">お悩みに対して、こちらの考えや改善の方向性をお伝えします。</p>
+              </div>
+            </div>
+            <div class="consultation__step">
+              <span class="consultation__number">03</span>
+              <div>
+                <p class="consultation__step-title">今後の進め方の相談</p>
+                <p class="consultation__step-desc">コーチングを受けるかどうか、ご自身で判断いただけます。</p>
+              </div>
+            </div>
+          </div>
+          <p class="consultation__note">まずはお話を聞かせてください。<br>無理な勧誘は一切ありません。</p>
+        </div>
+
+        <a href="mailto:rion.monya0224@gmail.com?subject=%E3%80%90%E7%84%A1%E6%96%99%E7%9B%B8%E8%AB%87%E3%80%91%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0&body=%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%A6%E3%80%82%0A%E7%84%A1%E6%96%99%E7%9B%B8%E8%AB%87%E3%82%92%E5%B8%8C%E6%9C%9B%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%0A%0A%E2%96%A0%20%E3%81%8A%E5%90%8D%E5%89%8D%0A%0A%0A%E2%96%A0%20%E6%B4%BB%E5%8B%95%E5%86%85%E5%AE%B9%EF%BC%88%E8%B8%8A%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%83%BB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%BBVTuber%E3%81%AA%E3%81%A9%EF%BC%89%0A%0A%0A%E2%96%A0%20%E4%BB%8A%E6%82%A9%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%E3%83%BB%E6%94%B9%E5%96%84%E3%81%97%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%0A%0A%0A%E3%81%8A%E6%B0%97%E8%BB%BD%E3%81%AB%E3%81%94%E9%80%A3%E7%B5%A1%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82" class="btn btn--primary btn--large">まずは無料で相談する</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <span class="footer__logo-name">RION</span>
+          <span class="footer__logo-sub">Performance Analysis</span>
+        </div>
+        <p class="footer__copy">&copy; 2026 RION Performance Analysis. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
